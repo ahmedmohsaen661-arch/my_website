@@ -1,0 +1,17 @@
+/* الأساسيات وتنسيقات خط القاهرة */
+body {
+font-family: 'Cairo', sans-serif;
+background-color: #FBF9F5;
+color: #2D3748;
+}
+
+/* إخفاء العناصر ريثما يتم تحميل Alpine.js */
+[x-cloak] {
+display: none !important;
+}
+
+/* هيدر زجاجي شفاف متناسق مع التمرير */
+.glass-header {
+background: rgba(251, 249, 245, 0.9);
+backdrop-filter: blur(10px);
+}
